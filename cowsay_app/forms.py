@@ -1,7 +1,7 @@
 from django import forms
-from cowsay_app.models import input_text
+from cowsay_app.models import text_input
 
 class InputTextForm(forms.ModelForm):
     class Meta:
-        model = input_text
+        model = text_input
         fields = '__all__'

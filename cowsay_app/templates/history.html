@@ -1,0 +1,15 @@
+<head>
+    <title>History</title>
+</head>
+<body>
+    <style>
+        p {font-size: 20}
+    </style>
+    <h1>History</h1>
+    <ul>
+        {% for item in cowsay %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <p><a href="/">Home</a></p>
+</body>

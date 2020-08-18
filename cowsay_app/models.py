@@ -1,6 +1,7 @@
 from django.db import models
+from django.utils import timezone
 
-class input_text(models.Model):
+class text_input(models.Model):
     text = models.CharField(max_length=80)
 
     def __str__(self):
